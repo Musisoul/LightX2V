@@ -29,4 +29,3 @@ class FlashVSRPostWeights:
         missing = self.tc_decoder.load_state_dict(state, strict=False)
         self.tc_decoder.to(device=self.device, dtype=self.dtype)
         logger.info(f"[FlashVSR] Loaded TCDecoder from {ckpt_path}, missing_keys={len(missing.missing_keys)}")
-

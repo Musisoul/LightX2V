@@ -11,4 +11,3 @@ class FlashVSRPostInfer:
         if video.ndim != 4:
             raise ValueError(f"Expected FlashVSR output shape [C,T,H,W], got: {tuple(video.shape)}")
         return video.unsqueeze(0)
-

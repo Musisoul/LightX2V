@@ -12,9 +12,7 @@ def main():
         task="sr",
     )
 
-    pipe.create_generator(
-        config_json="/path/to/LightX2V/configs/flashvsr/flashvsr_v11_tiny_sr.json"
-    )
+    pipe.create_generator(config_json="/path/to/LightX2V/configs/flashvsr/flashvsr_v11_tiny_sr.json")
 
     seed = 42
     prompt = ""

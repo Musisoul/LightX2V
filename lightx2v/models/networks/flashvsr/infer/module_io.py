@@ -9,4 +9,3 @@ class FlashVSRPreInferOutput:
     height: int
     width: int
     num_frames: int
-

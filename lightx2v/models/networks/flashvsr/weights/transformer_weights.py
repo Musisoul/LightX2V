@@ -41,4 +41,3 @@ class FlashVSRTransformerWeights:
             self.pipeline.init_cross_kv()
         if hasattr(self.pipeline, "load_models_to_device"):
             self.pipeline.load_models_to_device(["dit", "vae"])
-

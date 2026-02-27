@@ -23,4 +23,3 @@ class FlashVSRScheduler(BaseScheduler):
 
     def step_post(self):
         pass
-

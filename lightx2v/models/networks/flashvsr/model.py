@@ -65,4 +65,3 @@ class FlashVSRModel:
         if self.scheduler is not None:
             self.scheduler.latents = latents
         return latents
-

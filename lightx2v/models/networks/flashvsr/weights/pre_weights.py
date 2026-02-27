@@ -28,4 +28,3 @@ class FlashVSRPreWeights:
         self.lq_proj.load_state_dict(state, strict=True)
         self.lq_proj.to(device=self.device, dtype=self.dtype)
         logger.info(f"[FlashVSR] Loaded LQ projector from {ckpt_path}")
-

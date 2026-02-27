@@ -114,4 +114,3 @@ class CausalLQ4xProj(nn.Module):
         out_x = rearrange(x, "b c f h w -> b (f h w) c")
         self.clip_idx += 1
         return [linear(out_x) for linear in self.linear_layers]
-

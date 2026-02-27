@@ -68,4 +68,3 @@ class FlashVSRPreInfer:
             width=target_w,
             num_frames=num_frames,
         )
-
